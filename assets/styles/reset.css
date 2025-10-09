@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'extraSquare';
+    src: url('../fonts/BPGExtraSquare.eot');
+    src: url('../fonts/BPGExtraSquare.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/BPGExtraSquare.woff2') format('woff2'),
+        url('../fonts/BPGExtraSquare.woff') format('woff'),
+        url('../fonts/BPGExtraSquare.ttf') format('truetype'),
+        url('../fonts/BPGExtraSquare.svg#BPGExtraSquare') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

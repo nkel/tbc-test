@@ -1,0 +1,60 @@
+.main-box h2 {
+    color: red;
+    text-align: center; /* left , right, justify */
+    text-decoration: underline;/* line-through, overline, none*/
+    letter-spacing: 15px;
+    word-spacing: 35px;
+    text-shadow: 1px 1px 0 yellow,-1px -1px 0 yellow,1px -1px 0 yellow,-1px 1px 0 yellow;
+   
+}
+.main-box  {
+    text-align: justify; /* left , right, justify */
+    line-height: 40px;
+    text-indent: 50px;
+    /* white-space: nowrap */
+    text-transform: uppercase; /* capitalize , lowercase */
+}
+.category {
+    background-color: antiquewhite;    
+}
+.category a {
+    text-decoration: none;
+    font-style: italic; /* normal */
+    font-weight: bold; /* normal , bold, bolder, 0-1000 */
+    font-size: 26px;
+}
+
+html, body {
+    font-size: 14px;
+}
+
+address {
+    font-style: normal;
+}
+.container {
+    font-size: 20px;
+}
+
+.container h2 {
+    font-size: 150%;
+    font-weight: normal;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.container h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: 'verdana';
+}
+.container h4 {
+    font-family: 'extraSquare';
+}
+
+
+
+@media(max-width: 1200px) {
+ .container {
+    font-size: 12px;    
+ }   
+}
